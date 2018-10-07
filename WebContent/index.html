@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>MIGO SEO Portal</title>
+</head>
+<body>      
+	<form action="login" method="post">>
+		<table class="horizontal-center">
+		<tr>
+		<td colspan=2>
+			<h3>MIGO SEO Portal -- > Accessing Info --> Secure Portal</h3>
+		</td>
+		</tr>
+		    <tr>
+		        <td>User ID</td>
+		        <td>
+		            <input type='text' name='userName' id='userName' value='' size='27'>
+		        </td>
+		    </tr>
+		    <tr>
+		        <td>Password</td>
+		        <td>
+		            <input type='password' name='password' id='password' value='' size='27'>
+		        </td>
+		    </tr>
+		    <tr>
+		        <td></td>
+		        <td>
+		            <input type="submit" value="Login" name='Login'>
+		             <input type="button" value="Clear" name='Clear' onclick="clearData()">
+		        </td>
+		    </tr>
+		</table>
+	</form>
+</body>
+<style>
+.horizontal-center {
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+<script type="text/javascript">
+
+function loginInfo() {
+	
+}
+
+function clearData() {
+	document.getElementById("userName").value ="";
+	document.getElementById("password").value ="";
+	return;
+}
+
+</script>
+</html>
